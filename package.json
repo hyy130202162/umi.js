@@ -3,6 +3,7 @@
   "scripts": {
     "start": "umi dev",
     "build": "umi build",
+    "show": "umi plugin list",
     "postinstall": "umi generate tmp",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "test": "umi-test",
@@ -29,5 +30,8 @@
     "react-dom": "^16.12.0",
     "umi": "^3.2.22",
     "yorkie": "^2.0.0"
+  },
+  "devDependencies": {
+
   }
 }
